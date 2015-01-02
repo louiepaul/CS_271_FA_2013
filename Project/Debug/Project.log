@@ -1,0 +1,19 @@
+﻿Build started 12/8/2013 10:26:52 PM.
+     1>Project "C:\CS 271\Project\Project.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+         Assembling testerLP.asm...
+         cmd.exe /C "C:\Users\Louie\AppData\Local\Temp\tmpeaa65ee0b3464f98985c692db9993d13.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\testerLP.obj" /Fl"Project.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /TatesterLP.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\CS 271\Project\Debug\Project.exe" /NOLOGO /LIBPATH:c:\Irvine user32.lib irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\CS 271\Project\Debug\Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\CS 271\Project\Debug\Project.lib" /MACHINE:X86 /SAFESEH:NO Debug\testerLP.obj
+         Project.vcxproj -> C:\CS 271\Project\Debug\Project.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Project.unsuccessfulbuild".
+         Touching "Debug\Project.lastbuildstate".
+     1>Done Building Project "C:\CS 271\Project\Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.21
